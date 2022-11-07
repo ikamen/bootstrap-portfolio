@@ -1,0 +1,48 @@
+:root {
+    --primary-colour:	#56e39f;
+    --secondary-colour: #465775;
+    --third-colour: #59C9A5;
+    --fourth-colour: #EF6F6C;
+    --primary-colour-opacity: rgba(86, 227, 159, 0.5);
+    --third-colour-opacity: rgba(89, 201, 165, 0.5);
+}
+
+.customNav {
+    /* position: fixed; */
+    width: 100%;
+    background-color: var(--secondary-colour);
+    background-size: cover;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--primary-colour) !important;  
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.jumbotron {
+    background-image: url(../images/pexels-scott-webb-1029624.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+  }
+
+  .jumboCopy {
+    color: var(--secondary-colour);
+  }
+
+  .labelBorder {
+    border-right: 5px solid var(--secondary-colour);
+  }
+
+  .labelFont {
+    color: var(--secondary-colour);
+  }

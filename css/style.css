@@ -19,7 +19,7 @@
     margin-right: 0 !important;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand, .nav-link{
     color: var(--primary-colour) !important;  
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,3 +46,29 @@
   .labelFont {
     color: var(--secondary-colour);
   }
+
+  .contentFont {
+    color: var(--fourth-colour);
+  }
+
+  .contentBg {
+    background-color: var(--primary-colour-opacity);
+  }
+
+  .contentBg:hover {
+    background-color: var(--third-colour-opacity);
+  }
+
+  .border-5 {
+    border-width:5px !important;
+    border: 5px solid var(--secondary-colour) !important;
+}
+
+.footerBg {
+    background-color: var(--secondary-colour);
+}
+
+.footerContent {
+    color: var(--primary-colour);  
+    text-align: center;
+}

@@ -42,43 +42,45 @@
   <main class="container-fluid">
     <!-- about me -->
     <section class="row">
-      <div class="col-3 labelBorder align-self-center">
+      <div class="col-2 labelBorder align-self-center">
         <h2 class="float-right labelFont">About Me</h2>
       </div>
-      <div class="col-2">
+      <div class="col-2 pl-5">
         <img src="images/avatar.png" width="150px"  alt="Kamen avatar">
       </div>
-      <div class="col-7 align-self-center">
+      <div class="col-8 align-self-center">
         <p class="h6 labelFont">I'm a project manager who was once a developer and is keen to go back to being a developer</p>
       </div>
     </section>
 
     <!-- portfolio container -->    
-    <section class="row">
-      <div class="col-3 labelBorder align-self-center">
+    <section class="row mt-4 mb-4">
+      <div class="col-2 labelBorder align-self-center">
         <h2 class="float-right labelFont">Work</h2>
       </div>
-      <div class="col-9">
-        <div class="row justify-content-around align-items-center">
-          <!-- <div class="col-12"> -->
+      <div class="col-10 p-5">
+        <div class="row justify-content-around align-items-center border border-5 mb-4 py-3 contentBg">
             <a href="https://ikamen.github.io/best_youtube_channels/" target="_blank">
               <img src="images/youtubeproject.png" alt="YouTube project image" width="400px">
             </a>
-            <p class="h6 labelFont">My latest project featuring the best YouTube channels</p>
-          <!-- </div> -->
+            <p class="h6 contentFont">My latest project featuring the best YouTube channels</p>
         </div>
         <div class="row">
-          <div class="col-6 row justify-content-around align-items-center">
-            <a href="https://ikamen.github.io/week1_challenge/" target="_blank">
-              <img src="images/cssrefactoring.png" alt="CSS refactoring project" width="200px"  height="200px" >
-            </a> 
-            <p class="h6 labelFont">My project on refactoring CSS</p>
+          <div class="col">
+            <div class="row justify-content-around align-items-center border border-5 mr-1 py-3 contentBg">
+              <a href="https://ikamen.github.io/week1_challenge/" target="_blank">
+                <img src="images/cssrefactoring.png" alt="CSS refactoring project" width="200px"  height="200px" >
+              </a> 
+              <p class="h6 contentFont">My project on refactoring CSS</p>
+            </div>
           </div>
-          <div class="col-6 row justify-content-around align-items-center text-wrap">
-            <a href="https://ikamen.github.io/dev_course_prework_test/" target="_blank">
-              <img src="images/prep.png" alt="Prep work" width="200px" height="200px">
-            </a>
-            <p class="h6 labelFont">My project on preparing for the dev course</p>
+          <div class="col">
+            <div class="row justify-content-around align-items-center border border-5 ml-1 py-3 contentBg">
+              <a href="https://ikamen.github.io/dev_course_prework_test/" target="_blank">
+                <img src="images/prep.png" alt="Prep work" width="200px" height="200px">
+              </a>
+              <p class="h6 contentFont">My project on preparing for the dev course</p>
+            </div>
           </div>
         </div>
       </div>
@@ -86,28 +88,25 @@
     </section>
 
     <!-- contact -->    
-    <section class="row">
-      <div class="col-3 labelBorder align-self-center">
+    <section class="row mb-4">
+      <div class="col-2 labelBorder align-self-center">
         <h2 class="float-right labelFont">Contact Me</h2>
       </div>
-      <div class="col-8">
-        <div class="row">
-          <div class="col-12">
-            <a href="tel:+44 UK mobile number" id="contact-tel">+44 UK mobile number</a>
-          </div>
+      <div class="col-10 pl-5">
+        <div class="row pb-3">
+            <a href="tel:+44 UK mobile number" class="h6 contentFont" id="contact-tel">+44 UK mobile number</a>
         </div>
         <div class="row">
-          <div class="col-12">
-            <a href="mailto:kamen.web.dev@gmail.com" id="contact-email">kamen.web.dev@gmail.com</a>
-          </div>
+            <a href="mailto:kamen.web.dev@gmail.com" class="h6 contentFont" id="contact-email">kamen.web.dev@gmail.com</a>
         </div>
         </div>
       </div>
     </section>
   </main>
-  <footer class="footer mt-auto py-3">
-    <div class="container">
-      <span class="text-muted">&copy;2022</span>
+
+  <footer class="footer footerBg">
+    <div class="container py-2">
+      <p class="footerContent">&copy;2022</p>
     </div>
   </footer>
 </body>
